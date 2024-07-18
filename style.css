@@ -1,0 +1,167 @@
+
+* {
+  font-family: "Inter", sans-serif;
+}
+.row{
+    height: 100vh;
+}
+.main{
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 5px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_medium.jpg
+    );
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: #434343;
+
+}
+.collapse{
+    justify-content: end;
+}
+.navbar-nav li{
+    color: yellowgreen;
+}
+.nav-item1{
+    border: 2px solid white;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 8px;
+    padding: 0px 4px;
+
+}
+.nav-item a{
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 600;
+   
+}
+.nav-item2 {
+    background-color: #e50914;
+    border-radius: 8px;
+    color: #e50914;
+    margin: 6px;
+    padding: 2px;
+    padding: 0px 4px;
+}
+.main-heading{
+    height: 300px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+}
+.main-heading h1{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+.main-heading p{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.main-search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+.main-search-sub{
+    width: 500px;
+    border: 2px solid white;
+    height: 40px;
+    margin-top: 50px;
+}
+.main-btn{
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 400;
+    border: 2px solid #e50914;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.partition{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.partition-heading h2{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    margin-top: 50px;
+}
+.partition-heading p{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+.partition-img img{
+    width: 300px;
+    height: 200px;
+    margin-top: 45px;
+}
+.partition2{
+flex-direction: row-reverse;
+}
+.partition4{
+    flex-direction: row-reverse;
+    }
+.main-img{
+    width: 200px;
+}
+.faq{
+    margin-bottom: 3px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+}
+.faq h1{
+    padding: 1em;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+.btn-faq{
+    background-color: #434343;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1em;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.card-body{
+    border-radius: 0%;
+    background-color: #434343;
+}
+.card{
+    background-color: #434343;
+}
